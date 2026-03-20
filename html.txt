@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukul Kumar Rain | Student Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mukul Kumar Rain</h1>
+        <p>Premium PDF Notes for Dedicated Students</p>
+    </header>
+
+    <main class="container">
+        <section class="controls">
+            <input type="text" id="searchInput" placeholder="Search for subjects (Physics, Math...)" onkeyup="filterNotes()">
+        </section>
+
+        <div class="notes-grid" id="notesGrid">
+            <div class="note-card">
+                <div class="icon">📚</div>
+                <h3>Advanced Physics</h3>
+                <p>Quantum Mechanics & Optics summary.</p>
+                <a href="path-to-your-pdf/physics.pdf" class="download-btn" download>Download PDF</a>
+            </div>
+
+            <div class="note-card">
+                <div class="icon">📐</div>
+                <h3>Calculus II</h3>
+                <p>Integration techniques and practice sets.</p>
+                <a href="SR. Teacher 1st Paper (GK) RPSC 2025" class="download-btn" download>Download PDF</a>
+            </div>
+
+            <div class="note-card">
+                <div class="icon">🧬</div>
+                <h3>Biology Basics</h3>
+                <p>Cell structure and genetic coding notes.</p>
+                <a href="#" class="download-btn" download>Download PDF</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mukul Kumar Rain. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
